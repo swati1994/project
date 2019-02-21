@@ -1,0 +1,6 @@
+projectKey=Sonar-project-without-maven
+serverUrl=http://localhost:9000
+serverVersion=6.7.6.38781
+dashboardUrl=http://localhost:9000/dashboard/index/Sonar-project-without-maven
+ceTaskId=AWkO55e_y070DeQH5Pq5
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWkO55e_y070DeQH5Pq5
