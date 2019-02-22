@@ -18,15 +18,15 @@ public class TestLoginService {
 	@Test
 	public void testifCheck(){
 		Login login=new Login();
-		login.setName("lalitha");
-		login.setPass("password123");
+		login.setName("admin");
+		login.setPass("admin");
 		Assert.assertTrue(service.checkUser(login));
 	}
 	@Test
 	public void testElseCheck(){
 		Login login=new Login();
 		login.setName("admin");
-		login.setPass("admin");
+		login.setPass("admin1");
 		Assert.assertFalse(service.checkUser(login));
 	}
 }
